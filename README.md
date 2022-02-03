@@ -1,4 +1,4 @@
-###  Hi there, my name is Karl 👋 <img height="32" width="32" src="https://media-exp1.licdn.com/dms/image/C4E0BAQF_1Wr__AYmYw/company-logo_200_200/0/1625501063651?e=2159024400&v=beta&t=g-60HXLT4orIF4jiJi06nATIq0_jg2bQvuv2z_F_TqA" />
+#  Hi there, my name is Karl 👋 <img height="32" width="32" src="https://media-exp1.licdn.com/dms/image/C4E0BAQF_1Wr__AYmYw/company-logo_200_200/0/1625501063651?e=2159024400&v=beta&t=g-60HXLT4orIF4jiJi06nATIq0_jg2bQvuv2z_F_TqA" />
 
 <a href="https://karlmerhi.com"><img height="32" width="250" src="https://img.shields.io/badge/karlmerhi.com-website%20link-brightgreen?style=for-the-badge&logo=appveyorr" /></a> <a href="https://www.linkedin.com/in/karl-m-673646179/"><img height="32" width="160" src="https://img.shields.io/badge/Linkedin-link-brightgreen?style=for-the-badge&logo=linkedin" /></a> <a href="https://github.com/karlmerhi"><img height="32" width="200" src="https://img.shields.io/badge/Github Profile-link-brightgreen?style=for-the-badge&logo=appveyorr" /></a>
 
@@ -14,7 +14,15 @@
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I enjoy being active
 
-### Languages and Tools:
+# Jarvis Data Engineering Training
+1. [Linux cluster monitoring agent (Linux and SQL)](./linux_sql) In-progress
+2. [Core Java Apps](./core_java) In-progress
+3. [Springboot Trading REST API](./springboot) In-progress
+4. [Hadoop/Hive](./hadoop) In-progress
+5. [Spark/Scala](./spark) In-progress
+6. [Cloud/DevOps](./cloud_devops) In-progress
+
+# Languages and Tools:
 
 <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" 
      />
