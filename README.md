@@ -7,7 +7,7 @@
 ⚡ I am an Junior Developer for Jarvis based out of Toronto with a strong passion for coding. I am currently learning Core Java, Linux, SQL(RDBMS), SpingBoot, Cloud, K8S, DevOps, Hadoop, Spark/Scala and Python Analytics. I find great enjoyement in building projects and being part of a team. I am an eager learner who believes in clean code, team work, agile/scrum, and problem solving with outside the box thinking. ⚡ 
 
 - 🔭 I’m currently working on my Linux/SQL module
-- 🌱 I’m currently Bash/Linux/SQL
+- 🌱 I’m currently learning Bash/Linux/SQL
 - 👯 I’m looking to collaborate on any projects
 - 🤔 I’m looking for help with anything (always willing to learn)
 - 💬 Ask me about how I can help
