@@ -1,4 +1,5 @@
 #! /bin/sh
+
 # psql_docker.sh bash script
 # The purpose of this script is to stop/start Docker and it's PostgreSQL container
 
