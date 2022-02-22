@@ -1,41 +1,52 @@
-###  Hi there, my name is Karl 👋 <img height="32" width="32" src="https://media-exp1.licdn.com/dms/image/C4E0BAQF_1Wr__AYmYw/company-logo_200_200/0/1625501063651?e=2159024400&v=beta&t=g-60HXLT4orIF4jiJi06nATIq0_jg2bQvuv2z_F_TqA" />
+# Karl Merhi . Jarvis Consulting
 
-<a href="https://karlmerhi.com"><img height="32" width="250" src="https://img.shields.io/badge/karlmerhi.com-website%20link-brightgreen?style=for-the-badge&logo=appveyorr" /></a> <a href="https://www.linkedin.com/in/karl-m-673646179/"><img height="32" width="160" src="https://img.shields.io/badge/Linkedin-link-brightgreen?style=for-the-badge&logo=linkedin" /></a> <a href="https://github.com/karlmerhi"><img height="32" width="200" src="https://img.shields.io/badge/Github Profile-link-brightgreen?style=for-the-badge&logo=appveyorr" /></a>
+I am a Junior Developer for Jarvis based out of Toronto with a strong passion for coding. I am currently learning Core Java, Linux, SQL(RDBMS), SpingBoot, Cloud, K8S, DevOps, Hadoop, Spark/Scala, and Python Analytics. I find great enjoyment in building projects and being part of a team. I am an eager learner who believes in clean code, teamwork, agile/scrum, and problem-solving with outside the box thinking.
+
+## Skills
+
+**Proficient:** Java/C++, Linux/Bash, RDBMS/SQL(MongoDB, PostGreSQL, T-SQL, PLSQL), Agile/Scrum, Git/Github/GitFlow, HTML/CSS, JavaScript, M.E.R.N(MongoDB, ExpreJS, React, NodeJS)
+
+**Competent:** JDBC, SpringBoot, Hadoop, Spark/Scala, Cloud, K8S, and DevOps, Python, Hive, Algorithms/Data structures
+
+**Familiar:** Software Testing, Machine Learning, Google Cloud Platform, Bootstrap, JSON
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi)
 
 
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/linux_sql)]: Developed a cluster monitoring system that is used to record system hardware information and compare it to the resources being used across different nodes every 5 minutes, store it in a database to generate reports for future resource planning purposes. This system was created using CentOS 7 for the Linux Cluster Administration team (LCA) and was implemented using PostgreSQL, Docker, Linux Bash, Crontab, etc...
 
-⚡ I am an Junior Developer for Jarvis based out of Toronto with a strong passion for coding. I am currently learning Core Java, Linux, SQL(RDBMS), SpingBoot, Cloud, K8S, DevOps, Hadoop, Spark/Scala and Python Analytics. I find great enjoyement in building projects and being part of a team. I am an eager learner who believes in clean code, team work, agile/scrum, and problem solving with outside the box thinking. ⚡ 
 
-- 🔭 I’m currently working on my Linux/SQL module
-- 🌱 I’m currently Bash/Linux/SQL
-- 👯 I’m looking to collaborate on any projects
-- 🤔 I’m looking for help with anything (always willing to learn)
-- 💬 Ask me about how I can help
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I enjoy being active
+## Highlighted Projects
+**Wild Life Website** [[GitHub](https://github.com/karlmerhi/Wild-Life-Website)]: This website was created as a school project. It uses an API, and can query animal species by location, it also has a very clean UI and is easy to navigate
 
-### Languages and Tools:
+**Business Website** [[GitHub](https://github.com/karlmerhi/Business-Database-Website)]: I made this application for a school project. This website can be used to add employees, departments, and images. It can also query and organize all the information based on the sorting method you would like. It is also a secure environment and there will be no information reserved after the end of the session. I suggest you view the GitHub link for a list of possible queries
 
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" 
-     />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/scala/scala.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/> <img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-<img height="32" width="32" src="https://avatars.githubusercontent.com/u/5658226?s=200&v=4" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" />
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/mongodb.svg" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
+**Personal Website** [[GitHub](https://karlmerhi.com)]: I made my portfolio website as a way to showcase my skills and talent with web apps as well as to garner exposure and market myself, I used M.E.R.N to complete this project
 
-[![Karl's GitHub stats](https://github-readme-stats.vercel.app/api?username=karlmerhi)](https://github.com/karlmerhi/github-readme-stats)
-<!--
-[<img src="https://novatorem-karlmerhi.vercel.app/api/spotify alt="Spotify Now Playing" width="350"/>](https://open.spotify.com/user/karlmerhi99)
-Here are some ideas to get you started:
--->
+
+## Professional Experiences
+
+**Software Developer, Jarvis (January 2022-present)**: Bash Scripting Using the Linux kernel, Working as a Full-stack developer using Angular and Java Spring Boot, Creation of unit and integration tests. Deployment using Jenkins. Maintaining and developing APIs written in Java with Spring Boot, Angular, SQL, and ETL Jobs with Spark Scala.
+
+**Bilingual Help Desk HC1, Manpower/IBM (Contract Role) (November 2021-January 2022)**: Accurately use CRM software ServiceDesk to create tickets, Used active directory to manage users and configurations, First point of contact between customers who need technical support, Resolve simple problems and escalate unsolved problems to the specialized IT support, -Utilized knowledge base to ensure proper protocols are taken
+
+**Bilingual Help Desk Agent, Fusion BPO Services (February 2021-October 2021)**: Use CRM software ZenDesk to manage projects and document issues in tickets, Reliably migrate companies from Google Suite/Microsoft 365/, Use VoIP support to diagnose and troubleshoot client issues, Operate clients' computers remotely to resolve issues
+
+**Bilingual Help Desk HC1, Compugen/Municipality of Health (Contract Role) (March 2021-June 2022)**: Scheduled Covid-19 vaccination appointments for eligible groups, Used cloud-based software (Office365, Amazon Sign-on, SalesForce & Teams), Listened empathetically and understand customer requests and inquiries, Utilized discretion to escalate concerns/questions to supervisor as needed, Offered guidance and utilized knowledge base to provide accurate information
+
+
+## Education
+**Seneca College of Applied Arts (2020-2021)**, Advanced Diploma, Computer Programming Analysis
+-   
+- High Honours
+- Good Academic Standing
+
+
+## Miscellaneous
+- Seneca College: WEB422 Web Programming for Apps and Services, OOP345 Object-Oriented Software Development using C++DBA625 Database Administration, SYD466 Software Analysis and Design - II
+- Microsoft: Microsoft Technology Associate Developer Certification, - Microsoft Certified Solutions Developer Certification
+- Harvard's EDX: CS50's Introduction to Artificial Intelligence with Python CS50's Web Programming with Python and JavaScript, Professional Certificate in Computer Science for Web Programming
+- Stanford Online: Databases, Advanced Topics in SQL Databases, Modeling and Theory
+- French (fluent), English (native), Arabic (intermediate)
