@@ -7,7 +7,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi
 #linkedin: https://www.linkedin.com/in/karl-m-673646179/
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am an Junior Developer for Jarvis based out of Toronto with a strong passion for coding. I am currently learning Core Java, Linux, SQL(RDBMS), SpingBoot, Cloud, K8S, DevOps, Hadoop, Spark/Scala and Python Analytics. I find great enjoyement in building projects and being part of a team. I am an eager learner who believes in clean code, team work, agile/scrum, and problem solving with outside the box thinking."
+summary: "I am a Junior Developer for Jarvis based out of Toronto with a strong passion for coding. I am currently learning Core Java, Linux, SQL(RDBMS), SpingBoot, Cloud, K8S, DevOps, Hadoop, Spark/Scala, and Python Analytics. I find great enjoyment in building projects and being part of a team. I am an eager learner who believes in clean code, teamwork, agile/scrum, and problem-solving with outside the box thinking."
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -46,25 +46,25 @@ jarvis_projects:
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed a cluster monitoring system that is used to record system hardware information and compare it to the resources being used across different nodes every 5 minutes, store it in a database in order to generate reports for future resource planning purposes. This system was created using CentOS 7 for the Linux Cluster Administration team (LCA) and was implemented using PostgreSQL, Docker, Linux Bash, Crontab etc..."
+    description: "Developed a cluster monitoring system that is used to record system hardware information and compare it to the resources being used across different nodes every 5 minutes, store it in a database to generate reports for future resource planning purposes. This system was created using CentOS 7 for the Linux Cluster Administration team (LCA) and was implemented using PostgreSQL, Docker, Linux Bash, Crontab, etc..."
 #  - name: "Core Java Apps"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/core_java"
 #    description:
-#      - "Twitter App: Tasked by team lead to implement a Java app which can post/show/delete Twitter post via Twitter REST API."
-#      - "JDBC App: Tasked by the team lead to learn JDBC Java library, DAO, repository design patterns as well as some advanced JDBC concepts. I implemented a JDBC application, in order to create a connection to a PostgreSQL database. The application allowed us to perform predefined operations to the database, for instance CRUD (create, read, update, delete). The project uses Java, JDBC, Maven, SQL, Docker and PostgreSQL."
-#      - "Grep App: Tasked by the team lead to implement the given JavaGrep interface, the Grep App is used to simulate the bash grep command, used for searching files in a given directory and match strings to the ones in the files. It is implemented using Stream APIs, Maven, Regex and Lambda functions and was tested with JUnit testing. The Grep App is also contained within a Docker container."
+#      - "Twitter App: Tasked by the team lead to implement a Java app which can post/show/delete Twitter post via Twitter REST API."
+#      - "JDBC App: Tasked by the team lead to learn JDBC Java library, DAO, repository design patterns as well as some advanced JDBC concepts. I implemented a JDBC application, to create a connection to a PostgreSQL database. The application allowed us to perform predefined operations to the database, for instance, CRUD (create, read, update, delete). The project uses Java, JDBC, Maven, SQL, Docker, and PostgreSQL."
+#      - "Grep App: Tasked by the team lead to implement the given JavaGrep interface, the Grep App is used to simulate the bash grep command, used for searching files in a given directory and matching strings to the ones in the files. It is implemented using Stream APIs, Maven, Regex, and Lambda functions and was tested with JUnit testing. The Grep App is also contained within a Docker container."
 #  - name: "Springboot App"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/springboot"
 #    description: "Tasked by Jarvis trading team to develop a new trading platform to replace the legacy system, a monolithic application that is hard to scale and manage. The trading platform MVP is a REST API consumed by the front-end applications (e.g. web or mobile apps). The application allows users to manage client profiles and accounts, monitor portfolio performance, and trade securities."
 #  - name: "Python Data Analytics"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/python_data_anlytics"
-#    description: "Worked with London Gift Shop (LGS) marketing team, a UK-based online store that sells gift-ware to deliver a proof of concept (POC) project that helps the LGS marketing by analyzing customer shopping behaviour. This was done using Python, PostgreSQL, Data Analytics, Data Warehousing, Docker, and Jupyter Notebook"
+#    description: "Worked with London Gift Shop (LGS) marketing team, a UK-based online store that sells gift-ware to deliver a proof of concept (POC) project that helps the LGS marketing by analyzing customer shopping behavior. This was done using Python, PostgreSQL, Data Analytics, Data Warehousing, Docker, and Jupyter Notebook"
 #  - name: "Hadoop"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/hadoop"
-#    description: "Worked with the data analytics team, to process Big Data. The data analytics team used SAP and R to process the data, but they want to switch to some big data platforms. This project helped the data analytics team Evaluate Core Hadoop components, including MapReduce, HDFS, and YARN, Provision a Hadoop Cluster using GCP, Solve business problem using Apache Hive and Zeppelin Notebook."
+#    description: "Worked with the data analytics team, to process Big Data. The data analytics team used SAP and R to process the data, but they want to switch to some big data platforms. This project helped the data analytics team Evaluate Core Hadoop components, including MapReduce, HDFS, and YARN, Provision a Hadoop Cluster using GCP, Solve business problems using Apache Hive and Zeppelin Notebook."
 #  - name: "Spark/Scala"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/spark"
-#    description: "This is a continuation of the Python Data Analytics project, since the exiting Jupyter Notebook and Python solution cannot handle a large dataset as it runs on a single machine. The data solution needs to be re-architected using Apache Spark (environment - Zeppelin (on Hadoop) and Databricks (on Azure)). I was tasked with Perform data analytics using PySpark on Zeppelin and Databricks."
+#    description: "This is a continuation of the Python Data Analytics project since the exiting Jupyter Notebook and Python solution cannot handle a large dataset as it runs on a single machine. The data solution needs to be re-architected using Apache Spark (environment - Zeppelin (on Hadoop) and Databricks (on Azure)). I was tasked with performing data analytics using PySpark on Zeppelin and Databricks."
 #  - name: "Cloud/DevOps"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/cloud_devops"
 #    description: "Jarvis was planning to migrate on-premise servers to the Microsoft Azure cloud. I was tasked with developing a PoC project which requires deploying the trading-app microservice using Azure Cloud Services, such as VMs, Loadbalancers, Kubernetes, etc... I also needed to create a CI/CD pipeline using Jenkins to automate and fasten the SDLC."
@@ -72,7 +72,7 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
+  #project name
   - name: "Wild Life Website"
     #URL is optional
     git_url: "https://github.com/karlmerhi/Wild-Life-Website"
@@ -81,13 +81,13 @@ highlighted_projects:
   - name: "Business Website"
     git_url: "https://github.com/karlmerhi/Business-Database-Website"
     #live_demo: "https://aqueous-peak-42879.herokuapp.com/"
-    description: "I made this application for a school project. This website can be used to add employees, departments and images. It can also query and organize all the information based on the sorting method you would like. It is also a secure environment and there will be no information reserved after the end of the session. I suggest you view the github link for a list of possible queries"
+    description: "I made this application for a school project. This website can be used to add employees, departments, and images. It can also query and organize all the information based on the sorting method you would like. It is also a secure environment and there will be no information reserved after the end of the session. I suggest you view the GitHub link for a list of possible queries"
   - name: "Personal Website"
     git_url: "https://karlmerhi.com"
-    description: "I made my personal portfolio website as a way to showcase my skills and talent with web apps as well as to garner exposure and market myself, I used M.E.R.N to complete this project"
+    description: "I made my portfolio website as a way to showcase my skills and talent with web apps as well as to garner exposure and market myself, I used M.E.R.N to complete this project"
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+#The description must be more than 25 words. If your experience is not software-related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
@@ -95,76 +95,78 @@ professional_experience:
     duration: "January 2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description:
-      "- Bash Scripting Using the Linux kernel
-      - Working as a Full-stack developer using Angular and Java Spring Boot
-      - Creation of unit and integration tests. Deployment using Jenkins.
-      - Maintaining and developing APIs written in Java with Spring Boot, Angular, SQL and ETL Jobs with Spark Scala."
+      "Bash Scripting Using the Linux kernel, 
+      Working as a Full-stack developer using Angular and Java Spring Boot, 
+      Creation of unit and integration tests. Deployment using Jenkins. 
+      Maintaining and developing APIs written in Java with Spring Boot, Angular, SQL, and ETL Jobs with Spark Scala."
   - title: "Bilingual Help Desk HC1"
     company: "Manpower/IBM (Contract Role)"
     duration: "November 2021-January 2022"
     description:
-      "- Accurately use CRM software ServiceDesk to create tickets
-      - Used active directory to manage users and configurations
-      - First point of contact between customers who need technical support
-      - Resolve simple problems and escalate unsolved problems to the specialized IT support team
-      - Utilized knowledge base to ensure proper protocols are take"
+      "Accurately use CRM software ServiceDesk to create tickets, 
+      Used active directory to manage users and configurations, 
+      First point of contact between customers who need technical support, 
+      Resolve simple problems and escalate unsolved problems to the specialized IT support, 
+      -Utilized knowledge base to ensure proper protocols are taken"
   - title: "Bilingual Help Desk Agent"
     company: "Fusion BPO Services"
     duration: "February 2021-October 2021"
     description:
-      "- Use CRM software ZenDesk to manage projects and document issues in tickets
-      - Reliably migrate companies from Google Suite/Microsoft 365/Exchange
-      - Use VoIP support to diagnose and troubleshoot client issues
-      - Operate clients' computers remotely to resolve issues"
+      "Use CRM software ZenDesk to manage projects and document issues in tickets, 
+      Reliably migrate companies from Google Suite/Microsoft 365/, 
+      Use VoIP support to diagnose and troubleshoot client issues, 
+      Operate clients' computers remotely to resolve issues"
   - title: "Bilingual Help Desk HC1"
     company: "Compugen/Municipality of Health (Contract Role)"
     duration: "March 2021-June 2022"
     description:
-      "- Scheduled Covid-19 vaccination appointments for eligible groups
-      - Used cloud-based software: Office365, Amazon Sign-on, Sales Force & Teams
-      - Listened empathetically and understand customer requests and inquiries
-      - Utilized discretion to escalate concerns/questions to supervisor as needed
-      - Offered guidance and utilized knowledge base to provide accurate information"
+      "Scheduled Covid-19 vaccination appointments for eligible groups, 
+      Used cloud-based software (Office365, Amazon Sign-on, SalesForce & Teams), 
+      Listened empathetically and understand customer requests and inquiries, 
+      Utilized discretion to escalate concerns/questions to supervisor as needed, 
+      Offered guidance and utilized knowledge base to provide accurate information"
 
-#List of edcuation
-education: 
+#List of education
+education:
   - school_name: "Seneca College of Applied Arts"
     duration: "2020-2021"
     degree: "Advanced Diploma"
     department: "Computer Programming Analysis"
     # optional
     awards_achievements:
-      - "Good academic record"
+      - "  "
+      - "High Honours"
+      - "Good Academic Standing"
 
 #Optional section
 others:
-    #category
+  #category
   - title: "Certificates"
     #list of items
     bullets:
-      - "Seneca College:
-        - WEB422 Web Programming for Apps and Services
-        - OOP345 Object-Oriented Software Development using C++DBA625 Database Administration
-        - SYD466 Software Analysis and Design - II"
-      - "Microsoft:
-        - Microsoft Technology Associate Developer Certification
+      - "Seneca College: 
+        WEB422 Web Programming for Apps and Services, 
+        OOP345 Object-Oriented Software Development using C++DBA625 Database Administration, 
+        SYD466 Software Analysis and Design - II"
+      - "Microsoft: 
+        Microsoft Technology Associate Developer Certification, 
         - Microsoft Certified Solutions Developer Certification"
-      - "Harvard's EDX:
-        - CS50's Introduction to Artificial Intelligence with Python CS50's Web Programming with Python and JavaScript
-        - Professional Certificate in Computer Science for Web Programming"
-      - "Stanford Online:
-        - Databases, Advanced Topics in SQL Databases, Modeling and Theory"
+      - "Harvard's EDX: 
+        CS50's Introduction to Artificial Intelligence with Python CS50's Web Programming with Python and JavaScript, 
+        Professional Certificate in Computer Science for Web Programming"
+      - "Stanford Online: 
+        Databases, Advanced Topics in SQL Databases, Modeling and Theory"
 
-  - title: "Awards"
-    bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
-    bullets:
-      - "Camping/Hiking"
-      - "Fitness"
-      - "Sports"
+  #  - title: "Awards"
+  #    bullets:
+  #      - ""
+  #  - title: "Activities/Hobbies"
+  #    bullets:
+  #      - "Camping/Hiking"
+  #      - "Fitness"
+  #      - "Sports"
   - title: "Languages spoken"
     bullets:
-      - "French (fluent)"
-      - "English (native)"
-      - "Arabic (intermediate)"
+      - "French (fluent), 
+      English (native), 
+      Arabic (intermediate)"
