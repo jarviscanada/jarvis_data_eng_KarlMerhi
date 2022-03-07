@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/core_java.iml" filepath="$PROJECT_DIR$/.idea/core_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grep/grep.iml" filepath="$PROJECT_DIR$/grep/grep.iml" />
     </modules>
   </component>
 </project>
