@@ -47,7 +47,6 @@ writeToFile(matchedLines)
 The performance issue that I ran into when designing the first version of the grep application was when the program tried to process a large amount of data it would give the error message `outOfMemory`, this is caused when there is insufficient space in the heap and it overflows. This issue was resolved by updating the grep interface by replacing the List with Buffer/Stream instead.
 
 ## Test
-How did you test your application manually? (e.g. prepare sample data, run some test cases manually, compare result)
 The testing of the application was done manually by comparing the output file of my program to the sample output using the same sample text files.
 
 ## Deployment
