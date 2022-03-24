@@ -22,4 +22,6 @@ public interface CrdDao<T, ID> {
      * @return deleted entity
      */
     T deleteById(ID id);
+
+   // Tweet create(Object Tweet);
 }

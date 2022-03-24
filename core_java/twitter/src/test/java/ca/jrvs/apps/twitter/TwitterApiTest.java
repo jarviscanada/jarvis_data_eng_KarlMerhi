@@ -1,5 +1,16 @@
 package ca.jrvs.apps.twitter;
 
+import com.google.gdata.util.common.base.PercentEscaper;
+import oauth.signpost.OAuthConsumer;
+import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.util.EntityUtils;
+
+import java.util.Arrays;
+
 public class TwitterApiTest {
     private static String CONSUMER_KEY = System.getenv("consumerKey");
     private static String CONSUMER_SECRET = System.getenv("consumerSecret");
@@ -9,8 +20,7 @@ public class TwitterApiTest {
     public static void main(String [] args) throws Exception {
 
         //setup oauth
-        OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY,
-                CONSUMER_SECRET);
+        OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
         consumer.setTokenWithSecret(ACCESS_TOKEN, TOKEN_SECRET);
 
         //create an HTTP GET request
@@ -23,12 +33,12 @@ public class TwitterApiTest {
         consumer.sign(request);
 
         System.out.println("Http Request Headers:");
-        Arrays.stream(request.getAllHeaders()),forEach(System.out::println);
+        Arrays.stream(request.getAllHeaders()).forEach(System.out::println);
 
         // send the request
         HttpClient httpClient = HttpClientBuilder.create().build();
         HttpResponse response = httpClient.execute(request);
-        System.out.orintln(EntityUtils.toString(response.getEntit()));
+        System.out.println(EntityUtils.toString(response.getEntity()));
     }
 
 }
