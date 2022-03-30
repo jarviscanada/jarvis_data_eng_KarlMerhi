@@ -4,13 +4,13 @@ As a developer I am tasked with designing, implementing, and demonstrating an MV
 The LCA team needs an application that records hardware specifications of each node and monitor the resource usage (eg. CPU, memory...) every five minutes. The recorded data is then stored in an RDBMS database and used to generate reports for future resource planning purposes.
 
 #### Tools used:
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" 
+<img height="32" width="32" src="./assets/docker.png" 
      />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"/>
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"/>
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"/>
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png"/>
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png"/>
+<img height="32" width="32" src="./assets/git.png"/>
+<img height="32" width="32" src="./assets/sql.png"/>
+<img height="32" width="32" src="./assets/postgresql.png"/>
+<img height="32" width="32" src="./assets/bash.png"/>
+<img height="32" width="32" src="./assets/linux.png"/>
 
 # Quick Start
 #### Start, stop and create a psql instance using psql_docker.sh
