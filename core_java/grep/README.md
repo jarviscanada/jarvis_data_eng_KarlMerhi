@@ -10,13 +10,13 @@ The application takes three arguments:
 
 This grep application was designed using Java with the Mavin framework, git version control to keep track of the changes on the feature/CoreJavaGrep branch, IntelliJ Ultimate as the IDE, can be launched from a Jar file or from inside a docker container.
 
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png" 
+<img height="32" width="32" src="./assets/docker.png" 
      />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/maven/maven.png" />
-<img height="32" width="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-
+<img height="32" width="32" src="./assets/git.png"/>
+<img height="32" width="32" src="./assets/github.svg"/>
+<img height="32" width="32" src="./assets/java.png"/>
+<img height="32" width="32" src="./assets/maven.png"/>
+     
 ## Quick Start
 - Compile and Package the Java code with Maven:
 ```
