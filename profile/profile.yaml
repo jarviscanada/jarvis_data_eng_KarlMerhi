@@ -47,15 +47,15 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Developed a cluster monitoring system that is used to record system hardware information and compare it to the resources being used across different nodes every 5 minutes, store it in a database to generate reports for future resource planning purposes. This system was created using CentOS 7 for the Linux Cluster Administration team (LCA) and was implemented using PostgreSQL, Docker, Linux Bash, Crontab, etc..."
-#  - name: "Core Java Apps"
-#    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/core_java"
-#    description:
-#      - "Twitter App: Tasked by the team lead to implement a Java app which can post/show/delete Twitter post via Twitter REST API."
-#      - "JDBC App: Tasked by the team lead to learn JDBC Java library, DAO, repository design patterns as well as some advanced JDBC concepts. I implemented a JDBC application, to create a connection to a PostgreSQL database. The application allowed us to perform predefined operations to the database, for instance, CRUD (create, read, update, delete). The project uses Java, JDBC, Maven, SQL, Docker, and PostgreSQL."
-#      - "Grep App: Tasked by the team lead to implement the given JavaGrep interface, the Grep App is used to simulate the bash grep command, used for searching files in a given directory and matching strings to the ones in the files. It is implemented using Stream APIs, Maven, Regex, and Lambda functions and was tested with JUnit testing. The Grep App is also contained within a Docker container."
-#  - name: "Springboot App"
-#    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/springboot"
-#    description: "Tasked by Jarvis trading team to develop a new trading platform to replace the legacy system, a monolithic application that is hard to scale and manage. The trading platform MVP is a REST API consumed by the front-end applications (e.g. web or mobile apps). The application allows users to manage client profiles and accounts, monitor portfolio performance, and trade securities."
+  - name: "Core Java Apps"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/core_java"
+    description:
+      - "Twitter App: Tasked by the team lead to implement a Java app which can post/show/delete Twitter post via Twitter REST API."
+      - "JDBC App: Tasked by the team lead to learn JDBC Java library, DAO, repository design patterns as well as some advanced JDBC concepts. I implemented a JDBC application, to create a connection to a PostgreSQL database. The application allowed us to perform predefined operations to the database, for instance, CRUD (create, read, update, delete). The project uses Java, JDBC, Maven, SQL, Docker, and PostgreSQL."
+      - "Grep App: Tasked by the team lead to implement the given JavaGrep interface, the Grep App is used to simulate the bash grep command, used for searching files in a given directory and matching strings to the ones in the files. It is implemented using Stream APIs, Maven, Regex, and Lambda functions and was tested with JUnit testing. The Grep App is also contained within a Docker container."
+  - name: "Springboot App"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/springboot"
+    description: "Tasked by Jarvis trading team to develop a new trading platform to replace the legacy system, a monolithic application that is hard to scale and manage. The trading platform MVP is a REST API consumed by the front-end applications (e.g. web or mobile apps). The application allows users to manage client profiles and accounts, monitor portfolio performance, and trade securities."
 #  - name: "Python Data Analytics"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/python_data_anlytics"
 #    description: "Worked with London Gift Shop (LGS) marketing team, a UK-based online store that sells gift-ware to deliver a proof of concept (POC) project that helps the LGS marketing by analyzing customer shopping behavior. This was done using Python, PostgreSQL, Data Analytics, Data Warehousing, Docker, and Jupyter Notebook"
@@ -65,9 +65,9 @@ jarvis_projects:
 #  - name: "Spark/Scala"
 #    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/spark"
 #    description: "This is a continuation of the Python Data Analytics project since the exiting Jupyter Notebook and Python solution cannot handle a large dataset as it runs on a single machine. The data solution needs to be re-architected using Apache Spark (environment - Zeppelin (on Hadoop) and Databricks (on Azure)). I was tasked with performing data analytics using PySpark on Zeppelin and Databricks."
-#  - name: "Cloud/DevOps"
-#    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/cloud_devops"
-#    description: "Jarvis was planning to migrate on-premise servers to the Microsoft Azure cloud. I was tasked with developing a PoC project which requires deploying the trading-app microservice using Azure Cloud Services, such as VMs, Loadbalancers, Kubernetes, etc... I also needed to create a CI/CD pipeline using Jenkins to automate and fasten the SDLC."
+  - name: "Cloud/DevOps"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/cloud_devops"
+    description: "Jarvis was planning to migrate on-premise servers to the Microsoft Azure cloud. I was tasked with developing a PoC project which requires deploying the trading-app microservice using Azure Cloud Services, such as VMs, Loadbalancers, Kubernetes, etc... I also needed to create a CI/CD pipeline using Jenkins to automate and fasten the SDLC."
 
 # List of personal or academic projects
 # Feel free to add more projects
