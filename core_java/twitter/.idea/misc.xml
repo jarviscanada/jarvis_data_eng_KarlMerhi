@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,11 +13,16 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 =======
+=======
+>>>>>>> Stashed changes
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 </project>
