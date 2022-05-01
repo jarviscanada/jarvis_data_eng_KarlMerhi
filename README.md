@@ -27,7 +27,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi]
 
 **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/cloud_devops)]: Jarvis was planning to migrate on-premise servers to the Microsoft Azure cloud. I was tasked with developing a PoC project which requires deploying the trading-app microservice using Azure Cloud Services, such as VMs, Loadbalancers, Kubernetes, etc... I also needed to create a CI/CD pipeline using Jenkins to automate and fasten the SDLC.
 
-
 ## Highlighted Projects
 **Wild Life Website** [[GitHub](https://github.com/karlmerhi/Wild-Life-Website)]: This website was created as a school project. It uses an API, and can query animal species by location, it also has a very clean UI and is easy to navigate
 
