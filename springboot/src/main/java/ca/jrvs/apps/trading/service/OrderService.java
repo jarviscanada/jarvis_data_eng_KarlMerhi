@@ -1,2 +1,4 @@
-package ca.jrvs.apps.trading.service;public class OrderService {
+package ca.jrvs.apps.trading.service;
+
+public class OrderService {
 }

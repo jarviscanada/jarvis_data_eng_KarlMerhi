@@ -1,2 +1,4 @@
-package ca.jrvs.apps.trading.dao;public class SecurityOrderDao {
+package ca.jrvs.apps.trading.dao;
+
+public class SecurityOrderDao {
 }
