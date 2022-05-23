@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataRetrievalFailureException;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.dao.IncorrectResultSizeDataAccessException;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -62,7 +63,7 @@ public class QuoteDao implements CrudRepository<Quote, String> {
      * @param quote
      */
     private int updateOne(Quote quote){
-        String updateSQL = "UPDATE quote SET last_price=?, bid_price=?, bid_size=?, "
+        String updateSQL = "UPDATE " + TABLE_NAME + " SET last_price=?, bid_price=?, bid_size=?, "
                 + "ask_price=?, ask_size=? WHERE ticker=?";
         return jdbcTemplate.update(updateSQL, makeUpdateValues(quote));
     }
@@ -83,22 +84,26 @@ public class QuoteDao implements CrudRepository<Quote, String> {
 
     @Override
     public Optional<Quote> findById(String ticker) {
-        String selectSql = "SELECT " + ID_COLUMN_NAME
-                + " FROM " + TABLE_NAME
-                + " WHERE " + ID_COLUMN_NAME + "= " + ticker;
-        List<Quote> quotes =  jdbcTemplate
-                .query(selectSql, BeanPropertyRowMapper.newInstance(Quote.class));
-        if(quotes.size()==1){
-            Quote outQuote = quotes.get(0);
-            return Optional.ofNullable(outQuote);
-        }else{
-            throw new DataRetrievalFailureException("cannot Get data");
+        Quote quote = null;
+        String selectSql = "SELECT * FROM " + TABLE_NAME
+                + " WHERE " + ID_COLUMN_NAME + " =?";
+        try {
+            quote = jdbcTemplate.queryForObject
+                    (selectSql, BeanPropertyRowMapper.newInstance(Quote.class), ticker);
+        } catch (EmptyResultDataAccessException ex) {
+            logger.debug("Can't find quote id:" + ticker, ex);
         }
+        if (quote == null) {
+            throw new DataRetrievalFailureException("Resource not found");
+        }
+
+        return Optional.of(quote);
     }
 
     @Override
     public boolean existsById(String ticker) {
         String selectSql = "SELECT * FROM " + TABLE_NAME + " WHERE ticker = '" + ticker + "'";
+
         List<Quote> quotes =  jdbcTemplate
                 .query(selectSql, BeanPropertyRowMapper.newInstance(Quote.class));
         if(quotes.size()==1) {
@@ -125,9 +130,10 @@ public class QuoteDao implements CrudRepository<Quote, String> {
 
     @Override
     public void deleteById(String ticker) {
-        if (ticker == null) {
+        if (!existsById(ticker)) {
             throw new IllegalArgumentException("ID can't be null");
         }
+
         String deleteSql = "DELETE FROM " + TABLE_NAME
                 + " WHERE " + ID_COLUMN_NAME + " =?";
         jdbcTemplate.update(deleteSql, ticker);

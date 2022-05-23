@@ -3,33 +3,25 @@ package ca.jrvs.apps.trading.model.domain;
 public class Account implements Entity<Integer>{
 
     private Integer id;
-    private Integer trader_id;
+    private Integer traderId;
     private Double amount;
+
     @Override
     public Integer getId() {
-        return null;
-    } d hj
-
-    @Override
-    public void setId(Integer integer) {
-
-
-    @Override
-    public Integer getID() {
         return id;
     }
 
     @Override
-    public void setID(Integer id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Integer getTrader_id() {
-        return trader_id;
+    public Integer getTraderId() {
+        return traderId;
     }
 
-    public void setTrader_id(Integer trader_id) {
-        this.trader_id = trader_id;
+    public void setTraderId(Integer traderId) {
+        this.traderId = traderId;
     }
 
     public Double getAmount() {

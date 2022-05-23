@@ -1,6 +1,7 @@
 
 package ca.jrvs.apps.trading.controller;
 
+import ca.jrvs.apps.trading.model.domain.Account;
 import ca.jrvs.apps.trading.model.domain.Trader;
 import ca.jrvs.apps.trading.model.view.TraderAccountView;
 import ca.jrvs.apps.trading.service.TraderAccountService;

@@ -71,10 +71,19 @@ public class QuoteDaoIntTest {
         assertEquals(true, quoteDao.existsById(savedQuote.getId()));
     }
 
+    @Test
+    public void findById() {
+        Quote quote1 = quoteDao.findById(savedQuote.getId()).get();
+        assertEquals(quote1.getAskPrice(), savedQuote.getAskPrice());
+        assertEquals(quote1.getAskSize(), savedQuote.getAskSize());
+        assertEquals(quote1.getBidPrice(), savedQuote.getBidPrice());
+        assertEquals(quote1.getBidSize(), savedQuote.getBidSize());
+        assertEquals(quote1.getTicker(), savedQuote.getTicker());
+        assertEquals(quote1.getLastPrice(), savedQuote.getLastPrice());
+    }
 
     @Test
     public void findAll() throws Exception {
-        String ticker = savedQuote.getTicker();
         List<Quote> quotes = quoteDao.findAll();
         assertEquals(quotes.get(0).getAskPrice(), savedQuote.getAskPrice());
         assertEquals(quotes.get(0).getAskSize(), savedQuote.getAskSize());
@@ -90,10 +99,12 @@ public class QuoteDaoIntTest {
     }
 
     @Test
-    public void deleteById() throws Exception {
+    public void deleteById() {
         //quoteDao.deleteById(savedQuote.getTicker());
         //assertEquals(1, quoteDao.count());
-        quoteDao.deleteAll();
+        assertEquals(1, quoteDao.count());
+        quoteDao.deleteById(savedQuote.getId());
+        //quoteDao.deleteAll();
         assertEquals(0, quoteDao.count());
     }
 

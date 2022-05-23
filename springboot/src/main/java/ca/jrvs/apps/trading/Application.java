@@ -1,8 +1,5 @@
 package ca.jrvs.apps.trading;
 
-import ca.jrvs.apps.trading.controller.QuoteController;
-import ca.jrvs.apps.trading.dao.QuoteDao;
-import ca.jrvs.apps.trading.model.domain.Quote;
 import ca.jrvs.apps.trading.service.QuoteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,23 +24,14 @@ public class Application implements CommandLineRunner {
   @Autowired
   private QuoteService quoteService;
 
-  @Autowired
-  private QuoteController quoteController;
-
-  @Autowired
-  private QuoteDao quoteDao;
-
-  public static void main (String[] args) throws Exception{
+  public static void main (String[] args) {
     SpringApplication app = new SpringApplication(Application.class);
     app.run(args);
   }
 
   @Override
-  public void run(String... args) throws Exception{
-
-    quoteDao.deleteAll();
-
-    System.out.println(Quote.class.getClassLoader().getResource("logging.properties"));
-
+  public void run(String... args) {
+    for (String ticker : args)
+      System.out.print(quoteService.findIexQuoteByTicker(ticker).getSymbol());
   }
 }

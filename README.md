@@ -17,6 +17,15 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi]
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/linux_sql)]: Developed a cluster monitoring system that is used to record system hardware information and compare it to the resources being used across different nodes every 5 minutes, store it in a database to generate reports for future resource planning purposes. This system was created using CentOS 7 for the Linux Cluster Administration team (LCA) and was implemented using PostgreSQL, Docker, Linux Bash, Crontab, etc...
 
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/core_java)]:
+      
+  - Twitter App: Tasked by the team lead to implement a Java app which can post/show/delete Twitter post via Twitter REST API.
+  - JDBC App: Tasked by the team lead to learn JDBC Java library, DAO, repository design patterns as well as some advanced JDBC concepts. I implemented a JDBC application, to create a connection to a PostgreSQL database. The application allowed us to perform predefined operations to the database, for instance, CRUD (create, read, update, delete). The project uses Java, JDBC, Maven, SQL, Docker, and PostgreSQL.
+  - Grep App: Tasked by the team lead to implement the given JavaGrep interface, the Grep App is used to simulate the bash grep command, used for searching files in a given directory and matching strings to the ones in the files. It is implemented using Stream APIs, Maven, Regex, and Lambda functions and was tested with JUnit testing. The Grep App is also contained within a Docker container.
+
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/springboot)]: Tasked by Jarvis trading team to develop a new trading platform to replace the legacy system, a monolithic application that is hard to scale and manage. The trading platform MVP is a REST API consumed by the front-end applications (e.g. web or mobile apps). The application allows users to manage client profiles and accounts, monitor portfolio performance, and trade securities.
+
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_KarlMerhi/tree/main/cloud_devops)]: Jarvis was planning to migrate on-premise servers to the Microsoft Azure cloud. I was tasked with developing a PoC project which requires deploying the trading-app microservice using Azure Cloud Services, such as VMs, Loadbalancers, Kubernetes, etc... I also needed to create a CI/CD pipeline using Jenkins to automate and fasten the SDLC.
 
 ## Highlighted Projects
 **Wild Life Website** [[GitHub](https://github.com/karlmerhi/Wild-Life-Website)]: This website was created as a school project. It uses an API, and can query animal species by location, it also has a very clean UI and is easy to navigate

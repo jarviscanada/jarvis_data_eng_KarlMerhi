@@ -39,11 +39,11 @@ public abstract class JdbcCrudDao<T extends Entity<Integer>> implements CrudRepo
     @Override
     public <S extends T> S save (S entity) {
         if(existsById(entity.getId())) {
-            if(updateOne(entity) != 1) {
+            if (updateOne(entity) != 1) {
                 throw new DataRetrievalFailureException("Unable to update quote");
-            } else {
-                addOne(entity);
             }
+        } else {
+            addOne(entity);
         }
         return entity;
     }
@@ -54,8 +54,8 @@ public abstract class JdbcCrudDao<T extends Entity<Integer>> implements CrudRepo
     private <S extends T> void addOne(S entity) {
         SqlParameterSource parameterSource = new BeanPropertySqlParameterSource(entity);
 
-        Number newId = getSimpleJdbcInsert().executeAndReturnKey(parameterSource);
-        entity.setId(newId.intValue());
+        Object newId = getSimpleJdbcInsert().executeAndReturnKey(parameterSource);
+        entity.setId((Integer)newId);
     }
 
     /**
@@ -117,10 +117,15 @@ public abstract class JdbcCrudDao<T extends Entity<Integer>> implements CrudRepo
 
     @Override
     public void deleteById(Integer id) {
-        String selectSql = "SELECT * FROM " + getTableName()
-                + " WHERE " + getIdColumnName() + " =?";
 
-        getJdbcTemplate().update(selectSql, id);
+        if (!existsById(id)) {
+            throw new IllegalArgumentException("ID was not found.");
+        }
+
+        String deleteSql = "DELETE FROM " + getTableName()
+                + " WHERE " + getIdColumnName() + " = " + id;
+
+        getJdbcTemplate().update(deleteSql);
     }
 
     @Override

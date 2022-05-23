@@ -13,8 +13,8 @@ public class Quote implements Entity<String>{
     public String getId() {return ticker;}
 
     @Override
-    public void setId(String s) {
-        this.ticker = s;
+    public void setId(String ticker) {
+        this.ticker = ticker;
     }
 
     public String getTicker() {

@@ -7,6 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5f26bd90-3980-455c-8378-b5c44ffade66" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../out/grep_2022-02-22_20:20:31.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../out/grep_2022-03-07_03:50:12.txt" afterDir="false" />
@@ -93,6 +94,125 @@
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+=======
+    <list default="true" id="d65322b5-f245-46ae-9b0f-7226649b682a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../springboot/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-ant-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-ant-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-astbuilder-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-astbuilder-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-cli-commons-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-cli-commons-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-cli-picocli-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-cli-picocli-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-console-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-console-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-contracts-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-contracts-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-datetime-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-datetime-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-dateutil-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-dateutil-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-docgenerator-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-docgenerator-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-ginq-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-ginq-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-groovydoc-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-groovydoc-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-groovysh-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-groovysh-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-jmx-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-jmx-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-json-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-json-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-jsr223-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-jsr223-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-macro-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-macro-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-macro-library-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-macro-library-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-nio-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-nio-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-servlet-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-servlet-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-sql-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-sql-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-swing-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-swing-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-templates-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-templates-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-test-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-test-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-test-junit5-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-test-junit5-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-testng-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-testng-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-toml-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-toml-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-typecheckers-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-typecheckers-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-xml-4.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/groovy-xml-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-data-commons/2.2.4.RELEASE/spring-data-commons-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/psql/init_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/psql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/controller/QuoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/controller/ResponseExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/controller/TraderAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/JdbcCrudDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/MarketDataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/PositionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/QuoteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/SecurityOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/dao/TraderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/model/config/MarketDataConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/model/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/model/domain/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/model/domain/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/service/DashboardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/service/QuoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/service/TraderAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/test/java/ca/jrvs/apps/trading/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/test/java/ca/jrvs/apps/trading/dao/MarketDataDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/test/java/ca/jrvs/apps/trading/dao/QuoteDaoIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/test/java/ca/jrvs/apps/trading/service/QuoteServiceIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../trading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/grep_2022-03-07_23:59:57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/java/ca/jrvs/apps/trading/Application.java" afterDir="false" />
+>>>>>>> 492ec79a7aafae9ae8257fa105ab271fd3ba9a28
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

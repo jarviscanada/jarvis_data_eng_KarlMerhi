@@ -55,13 +55,24 @@ public class TraderDao extends JdbcCrudDao<Trader>{
     }
 
     @Override
-    public int updateOne(Trader entity) {
-        throw new UnsupportedOperationException("Not implemented");
+    public <S extends Trader> Iterable<S> saveAll(Iterable<S> entities) {
+        for (S entity : entities) {
+            save(entity);
+        }
+        return entities;
     }
 
     @Override
-    public <S extends Trader> Iterable<S> saveAll(Iterable<S> iterable) {
-        throw new UnsupportedOperationException("Not implemented");
+    public int updateOne(Trader trader) {
+        String updateSQL = "UPDATE "+ TABLE_NAME + " SET first_name=?, last_name=?, dob=?, "
+                + "country=?, email=? WHERE id=?";
+        return jdbcTemplate.update(updateSQL, makeUpdateValues(trader));
+    }
+
+    private Object[] makeUpdateValues(Trader trader){
+        return new Object[]{trader.getFirstName(), trader.getLastName(), trader.getDob(),
+                trader.getCountry(), trader.getEmail(), trader.getId()};
+
     }
 
     @Override

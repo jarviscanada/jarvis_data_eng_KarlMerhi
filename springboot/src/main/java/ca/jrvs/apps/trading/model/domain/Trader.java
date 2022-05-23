@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Trader implements Entity<Integer>{
 
-    private int id;
+    private Integer id;
     private String firstName;
     private String lastName;
     private Date dob;
@@ -13,15 +13,11 @@ public class Trader implements Entity<Integer>{
 
     @Override
     public Integer getId() {
-        return null;
+        return id;
     }
 
     @Override
-    public void setId(Integer integer) {
-
-    }
-
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

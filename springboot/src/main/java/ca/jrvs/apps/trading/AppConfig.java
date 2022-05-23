@@ -28,23 +28,15 @@ public class AppConfig {
 
     @Bean
     public DataSource dataSource() {
-        String jdbcUrl = "jdbc:postgresql://" +
-                "localhost:5432/jrvstrading";
-//                "jdbc:postgresql://" +
-//                        "trading-psql-demo-local" + ":" +
-//                        "5432" +
-//                        "/" +
-//                        "jrvstrading";
-        String user = "postgres";
-        String password = "password";
-//                        System.getenv("PSQL_HOST") + ":" +
-//                        System.getenv("PSQL_PORT") +
-//                        "/" +
-//                        System.getenv("PSQL_DB");
-//        String user = System.getenv("PSQL_USER");
-//        String password = System.getenv("PSQL_PASSWORD");
+        String jdbcUrl =
+                "jdbc:postgresql://" +
+                        System.getenv("PSQL_HOST") + ":" +
+                        System.getenv("PSQL_PORT") +
+                        "/" +
+                        System.getenv("PSQL_DB");
+        String user = System.getenv("PSQL_USER");
+        String password = System.getenv("PSQL_PASSWORD");
 
-        //Never log your credentials/secrets. Use IDE debugger instead
         BasicDataSource basicDataSource = new BasicDataSource();
         basicDataSource.setUrl(jdbcUrl);
         basicDataSource.setUsername(user);
